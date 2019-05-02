@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #808080;
+}
+ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+}
+#month-box,
+#day-box,
+#year-box {
+  margin: 2px;
+}
+#console-box {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  height: 200px;
+  width: 350px;
+  background-color: #832891;
+  color: #e9dc21;
+  font-family: arial;
+  padding: 6px;
+}
+#selector-box {
+  position: absolute;
+  top: 48px;
+  left: 6%;
+  width: 580px;
+  height: 600px;
+  background-color: #832891;
+  padding: 12px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.selector-term {
+  display: flex;
+  height: 70px;
+  width: 310px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  border-color: #e9dc21;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 10px;
+  color: #832891;
+}
+.term-box {
+  height: 40px;
+  width: 80px;
+  line-height: 35px;
+  background: #e9dc21;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.selector-years-thousands {
+  list-style: none;
+  display: flex;
+  width: 100px;
+  height: 200px;
+  flex-flow: column;
+  border: solid 1px;
+  border-color: #e9dc21;
+  float: left;
+  color: #832891;
+}
+.year-thousands-box {
+  height: 50px;
+  width: 50px;
+  background: #e9dc21;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  line-height: 45px;
+}
+
+.selector-years-ones {
+  list-style: none;
+  display: flex;
+  width: 210px;
+  height: 200px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  border-color: #e9dc21;
+  color: #832891;
+}
+.year-ones-box {
+  height: 50px;
+  width: 50px;
+  background: #e9dc21;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  margin: 6px;
+  margin-left: 12px;
+}
+
+.selected {
+  background-color: #e6a714;
+  font-weight: bold;
+}
+.action {
+  background-color: #e9dc21;
+  color: #fff;
+  width: auto;
+  height: 1 em;
+  padding: 0.5em 0.75em;
+  float: right;
+  border-color: #e9dc21;
+  color: #832891;
+  margin-top: 10px;
+}
+#home {
+  background-color: #e9dc21;
+  width: 4%;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  height: 35px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 34px;
+}

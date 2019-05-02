@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+body {
+  font-family: 'Arvo',serif;
+  margin: 0;
+  padding: 0;
+  border:0 ;
+  width: 100%;
+  background-color: 	#FAEBD7;
+}
+#picture>img {
+filter: grayscale(100%);
+}
+#link-boxes {
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-evenly;
+  height: 600px;
+  width:1600px;
+  background-color:white;
+  border: solid 1px;
+  margin:auto;
+  margin-bottom: 25px;
+
+    background:
+linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
+  
+  
+  
+  
+}
+#content-boxes {
+  height: 460px;
+  width:50%;
+    border: solid 1px;
+
+  
+
+}
+
+#text-boxes {
+  height: 280px;
+  width:45%;
+  background: #556;
+  color:white;
+  text-align:center;
+  padding: 30px;
+  font-size:22pt;
+    line-height: 1.4
+  
+  
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin:0 auto;
+  margin-bottom:20px;
+  font-family: 'Arvo',serif;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#picture{
+  z-index:1;
+  height:230px;
+  width:230px;
+  border: solid 1px;
+  position:absolute;
+  top: 5px; right: 5px;
+  border-radius:230px
+}
